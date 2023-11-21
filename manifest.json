@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "gptshunter spider",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "src/assets/icons/icon.png",
+      "32": "src/assets/icons/default-big.png",
+      "48": "src/assets/icons/icon48.png",
+      "128": "src/assets/icons/icon96.png"
+    }
+  },
+  "icons": {
+    "16": "src/assets/icons/icon.png",
+    "32": "src/assets/icons/default-big.png",
+    "48": "src/assets/icons/icon48.png",
+    "128": "src/assets/icons/icon96.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "src/content/content.jsx",
+        "src/js/utils.js",
+        "src/js/jquery-1.8.3.js",
+        "src/js/injected.js"
+      ],
+      "matches": ["*://www.gptshunter.com/*"],
+      "run_at": "document_end"
+    }
+  ],
+  "externally_connectable": {
+    "matches": ["*://www.gptshunter.com/*"]
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"],
+      "resources": ["src/assets/images/*.png", "src/js/*.js"]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "urls": [
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:featured",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:newest",
+    "https://www.gptshunter.com/api/search?keyword&lang=zh",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Productivity",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Developer+tools",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Customer+support",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Education+assistant",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Healthcare",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Sales",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Marketing",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Language+learning",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Startup+tools",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:General+writing",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Code+assistant",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Finance",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Writing+assistant",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Text+to+speech",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Startup+tools",
+    "https://www.gptshunter.com/api/search?keyword&sub_category=type:Human+resources"
+  ]
+}
