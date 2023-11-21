@@ -70,7 +70,7 @@ const App = () => {
 
   for (let [hIndex, hitItem] of hits.entries()) {
     for (let i = 0; i < pages; i++) {
-      let suffix = `${url}&page=${i+1}`
+      let suffix = `${hitItem}&page=${i+1}`
       spiderArr.push(suffix)
     }
   }
@@ -87,11 +87,11 @@ const App = () => {
         sessionStorage.clear()
         clearLocalStorageExcept(['idIndex' , 'idIndexUrl'])
         localStorage.setItem('idIndex' , spiderIndex)
-        localStorage.setItem('idIndexUrl' , spiderItem.url)
+        localStorage.setItem('idIndexUrl' , spiderItem)
 
-        const res = await fetch(spiderItem.url);
+        const res = await fetch(spiderItem);
         if(res.status != '200' ){
-          throw new Error(`获取${spiderItem.url}出错,isSub=${spiderItem.isSub}`)
+          throw new Error(`获取${spiderItem}出错`)
         }
         let resText = await res.json();
         let products = resText.length
