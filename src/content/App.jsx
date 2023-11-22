@@ -70,8 +70,11 @@ const App = () => {
 
   for (let [hIndex, hitItem] of hits.entries()) {
     for (let i = 0; i < pages; i++) {
-      let suffix = `${hitItem}&page=${i+1}`
-      spiderArr.push(suffix)
+      let suffix = `${hitItem.url}&page=${i+1}`
+      spiderArr.push({
+        url :suffix,
+        cate : hitItem.cate
+      })
     }
   }
 
@@ -97,7 +100,7 @@ const App = () => {
         let products = resText.length
 
         if(!products){
-          console.log('没有gpt产品，跳过')
+          console.log('没有gpt产品,跳过')
           continue
         }
         console.log('fetch success,save to esing....')
@@ -108,6 +111,8 @@ const App = () => {
         
         // console.log(esResult)
         console.log('等待中。。。');
+        await waitRandomTime(3000,4000)
+
       }
       console.log("抓取完毕，哈哈。。")
       let r=confirm("set idIndex 0?");
