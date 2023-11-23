@@ -86,7 +86,7 @@ const App = () => {
       for (let [spiderIndex, spiderItem] of spiderArr.entries()) {
         if(spiderIndex < index) continue
         sessionStorage.clear()
-        clearLocalStorageExcept(['idIndex' , 'idIndexUrl'])
+        clearLocalStorageExcept(['idIndex' , 'idIndexUrl','detailIndex','detailUrl'])
         localStorage.setItem('idIndex' , spiderIndex)
         localStorage.setItem('idIndexUrl' , spiderItem)
 
@@ -101,7 +101,15 @@ const App = () => {
           console.log('没有gpt产品,跳过')
           continue
         }
+        let detailIndex = localStorage.getItem('detailIndex') || 0
+
         for (let [index, item] of resText.entries()){
+          if(index < detailIndex) continue
+          if(!item.id) continue
+
+          localStorage.setItem('detailIndex' , index)
+          localStorage.setItem('detailUrl' , `/gpt-store/${item.id}`)
+
           const detailRes = await fetch(`/gpt-store/${item.id}`)
           let detailResText = await detailRes.text();
           let desc = $(detailResText).find("h2").filter(function() {
@@ -115,7 +123,7 @@ const App = () => {
           }).next().find('li').map(function() {
             return $(this).text().trim();
           }).get().join(',')
-          let gptlink = $(detailResText).find('div.mt-3').find('a').attr('href')
+          let gptlink = $(detailResText).find('div.mt-3 a').attr('href')
           
           let fileInfo,cleanOuterHTML
           if($(detailResText).find('div.space-y-2').length){
@@ -131,9 +139,12 @@ const App = () => {
             cleanOuterHTML = fileInfoOuterHTML.replace(/<!--[\s\S]*?-->/g, '');
           }
           item['detail']={
-            desc,welcome,prop,gptlink,...fileInfo , ...cleanOuterHTML
+            desc,welcome,prop,gptlink,
+            ...(fileInfo ? { fileInfo: fileInfo } : {}),
+            ...(cleanOuterHTML ? { cleanOuterHTML: cleanOuterHTML } : {})
           }
-          csvArr.push()
+          csvArr.push(item)
+          await waitRandomTime(3000,4000)
         }
         console.log('fetch success,save to esing....')
         // const esResult = await saveToEs(resText,spiderItem.title,spiderItem.suffix)
