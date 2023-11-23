@@ -71,15 +71,13 @@ const App = () => {
   for (let [hIndex, hitItem] of hits.entries()) {
     for (let i = 0; i < pages; i++) {
       let suffix = `${hitItem.url}&page=${i+1}`
-      spiderArr.push({
-        url :suffix,
-        cate : hitItem.cate
-      })
+      spiderArr.push(suffix)
     }
   }
 
   console.log(spiderArr.length)
 
+  let csvArr = []
   const getColumn = async ()=>{
     setCate('开始抓取。。。')
     setMessage('')
@@ -102,6 +100,40 @@ const App = () => {
         if(!products){
           console.log('没有gpt产品,跳过')
           continue
+        }
+        for (let [index, item] of resText.entries()){
+          const detailRes = await fetch(`/gpt-store/${item.id}`)
+          let detailResText = await detailRes.text();
+          let desc = $(detailResText).find("h2").filter(function() {
+            return $(this).text().trim() === "Description"
+          }).next().text();
+          let welcome = $(detailResText).find("h2").filter(function() {
+            return $(this).text().trim() === "Welcome Message"
+          }).next().text();
+          let prop = $(detailResText).find("h2").filter(function() {
+            return $(this).text().trim() === "Prompt Starters";
+          }).next().find('li').map(function() {
+            return $(this).text().trim();
+          }).get().join(',')
+          let gptlink = $(detailResText).find('div.mt-3').find('a').attr('href')
+          
+          let fileInfo,cleanOuterHTML
+          if($(detailResText).find('div.space-y-2').length){
+            fileInfo = $(detailResText).find('div.space-y-2 > div').map(function() {
+              // 获取每个子div中的文件名和文件大小
+              var fileName = $(this).find('div.truncate').text().trim();
+              var fileSize = $(this).find('div.shrink-0').text().trim();
+              // 返回格式化后的字符串
+              return fileName + '|' + fileSize;
+            }).get().join(',')
+            let fileInfoOuterHTML = $(detailResText).find('div.space-y-2 > div').get(0).outerHTML;
+            // 使用正则表达式移除HTML注释
+            cleanOuterHTML = fileInfoOuterHTML.replace(/<!--[\s\S]*?-->/g, '');
+          }
+          item['detail']={
+            desc,welcome,prop,gptlink,...fileInfo , ...cleanOuterHTML
+          }
+          csvArr.push()
         }
         console.log('fetch success,save to esing....')
         // const esResult = await saveToEs(resText,spiderItem.title,spiderItem.suffix)
