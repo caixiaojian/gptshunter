@@ -103,6 +103,9 @@ const App = () => {
         }
         let detailIndex = localStorage.getItem('detailIndex') || 0
 
+        localStorage.removeItem('detailIndex' )
+        localStorage.removeItem('detailUrl' )
+
         for (let [index, item] of resText.entries()){
           if(index < detailIndex) continue
           if(!item.id) continue
@@ -123,7 +126,9 @@ const App = () => {
           }).next().find('li').map(function() {
             return $(this).text().trim();
           }).get().join(',')
-          let gptlink = $(detailResText).find('div.mt-3 a').attr('href')
+          var urlPattern = /https:\/\/chat\.openai\.com\/g\/[\w-]+/g;
+          var matches = detailResText.match(urlPattern);
+          let gptlink = matches ? matches[0] : null
           
           let fileInfo,cleanOuterHTML
           if($(detailResText).find('div.space-y-2').length){
@@ -143,6 +148,7 @@ const App = () => {
             ...(fileInfo ? { fileInfo: fileInfo } : {}),
             ...(cleanOuterHTML ? { cleanOuterHTML: cleanOuterHTML } : {})
           }
+          console.log(item)
           csvArr.push(item)
           await waitRandomTime(3000,4000)
         }
