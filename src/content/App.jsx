@@ -42,26 +42,16 @@ const App = () => {
     } 
   }, []);
 
-  const saveToEs = async (text ,title ,url ,isBrand)=>{
+  const saveTo = async (item)=>{
     try {
       let options = {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: null
+        body: JSON.stringify(item)
       };
-      let products = $(text).find('div[id^="state-searchResultsV2-"][id$="default-1"]').data("state")
-      console.log('保存的products===',products)
-      if(!products){
-        throw new Error('获取产品失败')
-      }
-      let body = {
-        products,
-        title,
-        url
-      }
-      let esRest = await fetch(isBrand ? 'http://127.0.0.1:7001/product-brand': 'http://127.0.0.1:7001/product', {...options , body:JSON.stringify(body)})
+      let esRest = await fetch('http://127.0.0.1:7001/gpts-save',options)
       return await esRest.json()
     } catch (error) {
       throw new Error(error)
@@ -69,15 +59,18 @@ const App = () => {
   }
 
   for (let [hIndex, hitItem] of hits.entries()) {
-    for (let i = 0; i < pages; i++) {
-      let suffix = `${hitItem.url}&page=${i+1}`
-      spiderArr.push(suffix)
+    if(hIndex == 0){
+      spiderArr.push(hitItem.url)
+    }else{
+      for (let i = 0; i < pages; i++) {
+        let suffix = `${hitItem.url}&page=${i+1}`
+        spiderArr.push(suffix)
+      }
     }
+    
   }
 
   console.log(spiderArr.length)
-
-  let csvArr = []
   const getColumn = async ()=>{
     setCate('开始抓取。。。')
     setMessage('')
@@ -99,12 +92,14 @@ const App = () => {
 
         if(!products){
           console.log('没有gpt产品,跳过')
+          await waitRandomTime(2000,3000)
           continue
         }
-        let detailIndex = localStorage.getItem('detailIndex') || 0
+        let detailIndex = 0
 
-        localStorage.removeItem('detailIndex' )
-        localStorage.removeItem('detailUrl' )
+        // localStorage.removeItem('detailIndex' )
+        // localStorage.removeItem('detailUrl' )
+        console.log('数组长度====',products)
 
         for (let [index, item] of resText.entries()){
           if(index < detailIndex) continue
@@ -149,24 +144,20 @@ const App = () => {
             ...(cleanOuterHTML ? { cleanOuterHTML: cleanOuterHTML } : {})
           }
           console.log(item)
-          csvArr.push(item)
-          await waitRandomTime(3000,4000)
-        }
-        console.log('fetch success,save to esing....')
-        // const esResult = await saveToEs(resText,spiderItem.title,spiderItem.suffix)
-        // if(esResult.code !='0000'){
-        //   throw new Error('保存es出错')
-        // }
-        
-        // console.log(esResult)
-        console.log('等待中。。。');
-        await waitRandomTime(3000,4000)
+          const esResult = await saveTo(item)
+          if(esResult.code !='0000'){
+            throw new Error('保存出错')
+          }
+          console.log('save success')
 
+          await waitRandomTime(2000,3000)
+        }
+        console.log('等待中。。。');
       }
       console.log("抓取完毕，哈哈。。")
       let r=confirm("set idIndex 0?");
       if (r==true){
-        clearLocalStorageExcept(['idIndex' , 'idIndexUrl' , 'brandIndex' , 'brandUrl'])
+        clearLocalStorageExcept(['idIndex' , 'idIndexUrl' , 'detailIndex' , 'detailUrl'])
         sessionStorage.clear()
         localStorage.setItem('idIndex',0)
       }
