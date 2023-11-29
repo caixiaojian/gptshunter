@@ -3,12 +3,12 @@
   const fs = require('fs-extra');
   const path = require('path');
   // 确保imgs文件夹存在
-  const imgsDir = path.join(__dirname, 'imgs');
+  const imgsDir = path.join(__dirname, '20231129');
   if (!fs.existsSync(imgsDir)) {
     fs.mkdirSync(imgsDir);
   }
 
-  const filePath = path.join(process.cwd(), 'data.json');
+  const filePath = path.join(__dirname, 'data-2023-11-29.json');
   const jsonArray = await fs.readJson(filePath);
 
   // 错误日志文件路径
@@ -80,7 +80,7 @@
 
   // 顺序下载所有图片
   async function downloadAllImages() {
-    for (let i = 5090; i < jsonArray.length; i++) {
+    for (let i = 0; i < jsonArray.length; i++) {
       const logoUrl = jsonArray[i].logo;
       if (logoUrl) {
         await downloadImage(logoUrl, i);

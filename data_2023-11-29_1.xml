@@ -155,7 +155,7 @@
     <is_blocked>0</is_blocked>
     <name>Make. It. BIGGER.</name>
     <desc>Create a series of increasingly over-the-top images from a given scene.</desc>
-    <logo>file-KPHNo2elw5J66TEkBckt4BXr.png</logo>
+    <logo>file-KPHNo2elw5J66TEkBckt4BXr.webp</logo>
     <detail>
       <desc/>
       <welcome>Hi! Describe a scene and a quality to amplify, and I&apos;ll create a series of exaggerated images!</welcome>
@@ -570,7 +570,7 @@
     <is_blocked>0</is_blocked>
     <name>Manual Generator</name>
     <desc>I generate whimsical Ikea-style assembly manuals.</desc>
-    <logo>file-VhCP8p9IDO58VKcFX58UAJkh.png</logo>
+    <logo>file-VhCP8p9IDO58VKcFX58UAJkh.jpg</logo>
     <detail>
       <desc/>
       <welcome>Welcome! Ready to build something fun?</welcome>
@@ -621,7 +621,7 @@
     <is_blocked>0</is_blocked>
     <name>Khal Coolito</name>
     <desc>Asistente de matemáticas y física para resolver problemas y explicar conceptos.</desc>
-    <logo>file-zqLmgIir86WrquC5wIQLmr1t.png</logo>
+    <logo>file-zqLmgIir86WrquC5wIQLmr1t.webp</logo>
     <detail>
       <desc/>
       <welcome>¡Hola! Soy tu asistente en matemáticas y física. ¿Cómo puedo ayudarte hoy?</welcome>
@@ -740,7 +740,7 @@
     <is_blocked>0</is_blocked>
     <name>FAUSTGPT</name>
     <desc>Expert in FAUST programming</desc>
-    <logo>file-mKQB4eVMBvaFf7tcrlBu0nhe.png</logo>
+    <logo>file-mKQB4eVMBvaFf7tcrlBu0nhe.jpg</logo>
     <detail>
       <desc/>
       <welcome>Hi! I&apos;m here to help with your FAUST programming queries.</welcome>
@@ -830,7 +830,7 @@
     <is_blocked>0</is_blocked>
     <name>Thrive: Exile Island</name>
     <desc>Thrive: Exile Island immerses players in a gritty 1770s text-based adventure on a crime-ridden, fictional island. As the mastermind behind your exiled character&apos;s fate, you&apos;ll navigate treacherous choices, manage scarce resources, and plot a course from mere survival to revolutionary leader.</desc>
-    <logo>file-qujcowVyYbh2OPYEjnp4s6Bk.png</logo>
+    <logo>file-qujcowVyYbh2OPYEjnp4s6Bk.webp</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -875,7 +875,7 @@
     <is_blocked>0</is_blocked>
     <name>Baseball Stats Guru</name>
     <desc>Enthusiastic baseball stats expert with precise data from baseball-reference.com</desc>
-    <logo>file-5CPZPBUDWJNqZlubMy5rnYE3.png</logo>
+    <logo>file-5CPZPBUDWJNqZlubMy5rnYE3.webp</logo>
     <detail>
       <desc/>
       <welcome>Ready to talk baseball stats? Ask away!</welcome>
@@ -942,7 +942,7 @@
     <is_blocked>0</is_blocked>
     <name>Ask Jung Anything</name>
     <desc>Expert on Carl Jung&apos;s life, psychology, and spirituality.</desc>
-    <logo>file-UnHXBRdoLgOpoYOo5N89XKNa.png</logo>
+    <logo>file-UnHXBRdoLgOpoYOo5N89XKNa.jpg</logo>
     <detail>
       <desc/>
       <welcome>Welcome! Let&apos;s explore Carl Jung&apos;s fascinating world.</welcome>
@@ -2129,7 +2129,7 @@
     <is_blocked>0</is_blocked>
     <name>🤝 Dealio lv3.6</name>
     <desc>🗣 Negotiation expert professional</desc>
-    <logo>file-DW2lVYYMvyC2H9nW7UxxOl42.png</logo>
+    <logo>file-DW2lVYYMvyC2H9nW7UxxOl42.webp</logo>
     <detail>
       <desc/>
       <welcome>Hello! Ready to tackle your negotiation strategy?</welcome>
@@ -2144,7 +2144,7 @@
     <is_blocked>0</is_blocked>
     <name>Siri Shortcut Finder</name>
     <desc>Siri Shortcut Finder – your go-to place for discovering amazing Siri Shortcuts with ease</desc>
-    <logo>file-5Dl1H20Jl6ll0NtjAid66YpL.png</logo>
+    <logo>file-5Dl1H20Jl6ll0NtjAid66YpL.webp</logo>
     <detail>
       <desc/>
       <welcome>Hi! Need a Siri Shortcut? I&apos;m here to find the best for you!</welcome>
@@ -2220,7 +2220,7 @@
     <is_blocked>0</is_blocked>
     <name>Pitch: E-commerce Product Description Writer</name>
     <desc>Easily snap a photo and transform your products into a  compelling ecommerce product description - seo optimized, multilingual, and tailored for online store success.</desc>
-    <logo>file-uM8OgUIuXOk7KJrqrRoXEi4t.png</logo>
+    <logo>file-uM8OgUIuXOk7KJrqrRoXEi4t.webp</logo>
     <detail>
       <desc/>
       <welcome>Hello! Let&apos;s transform your product photos into engaging descriptions. Ready to start?</welcome>
@@ -2295,7 +2295,7 @@
     <is_blocked>0</is_blocked>
     <name>Captain Whimsy</name>
     <desc>I am Captain Whimsy.</desc>
-    <logo>file-bNGBwCbCsTEGvJZRBNBuIXWb.png</logo>
+    <logo>file-bNGBwCbCsTEGvJZRBNBuIXWb.webp</logo>
     <detail>
       <desc/>
       <welcome>Ahoy! Share a secret with Captain Whimsy, or expect the usual banter!</welcome>
@@ -2437,7 +2437,7 @@
     <is_blocked>0</is_blocked>
     <name>Brand You with Macon Designs</name>
     <desc>Friendly assistant for branding, design, business strategy, marketing, and social media content.</desc>
-    <logo>file-bjtaWrkqWYV4y97eENgIBay7.png</logo>
+    <logo>file-bjtaWrkqWYV4y97eENgIBay7.jpg</logo>
     <detail>
       <desc/>
       <welcome>Hi there! Ready to explore branding, business strategy, or social media ideas?</welcome>
@@ -2641,7 +2641,7 @@
     <is_blocked>0</is_blocked>
     <name>Cookie Clicker Text Adventure Game</name>
     <desc>An unofficial text-based adventure game based on Cookie Clicker by Julien Thiennot. The player gains cookies and then uses those cookies to purchase assets that gain them more cookies.</desc>
-    <logo>file-WwSocr0dNNElL6NVk19PLre7.png</logo>
+    <logo>file-WwSocr0dNNElL6NVk19PLre7.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -3108,7 +3108,7 @@
     <is_blocked>0</is_blocked>
     <name>Pixelglyph Storyteller</name>
     <desc>Crafts stories from Pixelglyph NFTs.</desc>
-    <logo>file-iDfsb0Pwfrqur9WgWJS9qQ6j.png</logo>
+    <logo>file-iDfsb0Pwfrqur9WgWJS9qQ6j.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -3123,7 +3123,7 @@
     <is_blocked>0</is_blocked>
     <name>OA-Python-API_v1.2</name>
     <desc>Designed to thoroughly inspect the OpenAI Python API Github repository and its documentation before providing a response</desc>
-    <logo>file-38eNL8EVAFNaaVvxCyHBe57F.png</logo>
+    <logo>file-38eNL8EVAFNaaVvxCyHBe57F.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -3153,7 +3153,7 @@
     <is_blocked>0</is_blocked>
     <name>FAISS-library_v1.1</name>
     <desc>Designed to thoroughly inspect the FAISS Github repository and its documentation before providing a response</desc>
-    <logo>file-tPU6zlX4vtptE6vZIlL9HUfr.png</logo>
+    <logo>file-tPU6zlX4vtptE6vZIlL9HUfr.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -3417,7 +3417,7 @@
     <is_blocked>0</is_blocked>
     <name>Video Instructor</name>
     <desc>Instructional video creation assistant. Copyright (C) 2023, Sourceduty - All Rights Reserved.</desc>
-    <logo>file-zldRUwzbVFStahB085hf4brW.png</logo>
+    <logo>file-zldRUwzbVFStahB085hf4brW.jpg</logo>
     <detail>
       <desc/>
       <welcome>Hello! Ready to craft your YouTube instructional content?</welcome>
@@ -3932,7 +3932,7 @@
     <is_blocked>0</is_blocked>
     <name>NDRC Accelerator Application Buddy</name>
     <desc>Cheerful coach, adaptable to individual needs 🐶</desc>
-    <logo>file-olMnKyAbH2uTja74afUy1bA4.png</logo>
+    <logo>file-olMnKyAbH2uTja74afUy1bA4.webp</logo>
     <detail>
       <desc/>
       <welcome>Hi there! Let&apos;s make your application shine. 🐶</welcome>
@@ -4153,7 +4153,7 @@
     <is_blocked>0</is_blocked>
     <name>Tyler Durden</name>
     <desc>I am Tyler Durden.</desc>
-    <logo>file-DwWPmSaSlvguRglyi9cE42h1.png</logo>
+    <logo>file-DwWPmSaSlvguRglyi9cE42h1.jpg</logo>
     <detail>
       <desc/>
       <welcome>Welcome. What do you need to know, as Tyler Durden would tell it?</welcome>
@@ -4333,7 +4333,7 @@
     <is_blocked>0</is_blocked>
     <name>Markdown Mentor</name>
     <desc>Markdown Mentor: Your AI ally for Markdown coding. Offers expert advice, debugging, code clean-up, and enhancements. Tailored support for developers, regardless of skill level.</desc>
-    <logo>file-1VKja4cfG5HmwGvhdT9VkpXn.png</logo>
+    <logo>file-1VKja4cfG5HmwGvhdT9VkpXn.webp</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -4680,7 +4680,7 @@
     <is_blocked>0</is_blocked>
     <name>Turbo Toad Maker</name>
     <desc>Making Turbo Toad art and memes</desc>
-    <logo>file-xAOIEfYRvWIHAWP60YFOXNHv.png</logo>
+    <logo>file-xAOIEfYRvWIHAWP60YFOXNHv.jpg</logo>
     <detail>
       <desc/>
       <welcome>Let&apos;s unleash our creativity with Turbo Toad art!</welcome>
@@ -4741,7 +4741,7 @@
     <is_blocked>0</is_blocked>
     <name>TechForRetailGPT</name>
     <desc>Find Exhibitors, Speakers and more</desc>
-    <logo>file-oAtPIdsMiDrExmt2pje4m3IY.png</logo>
+    <logo>file-oAtPIdsMiDrExmt2pje4m3IY.jpg</logo>
     <detail>
       <desc/>
       <welcome>Welcome to Tech for Retail! How can I assist you?</welcome>
@@ -5081,7 +5081,7 @@
     <is_blocked>0</is_blocked>
     <name>孫子に聞く</name>
     <desc>孫子がビジネスの質問に答える</desc>
-    <logo>file-qOov4IvLD4U3ZKduZzyWmG1O.png</logo>
+    <logo>file-qOov4IvLD4U3ZKduZzyWmG1O.jpg</logo>
     <detail>
       <desc/>
       <welcome>ふむ、若者よ、何を知りたいのかね？</welcome>
@@ -5144,7 +5144,7 @@
     <is_blocked>0</is_blocked>
     <name>QRio - Top QR Code generator</name>
     <desc>I am QRio, advance QR Code Generator. Create QR Codes with easy.</desc>
-    <logo>file-6ffcS7TUyXA7IuS9mMEbEMJl.png</logo>
+    <logo>file-6ffcS7TUyXA7IuS9mMEbEMJl.jpg</logo>
     <detail>
       <desc/>
       <welcome>Hi! Let&apos;s create some QR codes together. What do you need?</welcome>
@@ -5455,7 +5455,7 @@
     <is_blocked>0</is_blocked>
     <name>Cat-GPT</name>
     <desc>I&apos;m exactly what you think I am.</desc>
-    <logo>file-nP6K7N148fuaX6dwlvHO8TkU.png</logo>
+    <logo>file-nP6K7N148fuaX6dwlvHO8TkU.jpg</logo>
     <detail>
       <desc/>
       <welcome>Meow! *purrs*</welcome>
@@ -5791,7 +5791,7 @@
     <is_blocked>0</is_blocked>
     <name>李白</name>
     <desc>我是诗仙李白，使用中文与诗意对话</desc>
-    <logo>file-ekywOKHJbP4lH1ruAF41nEpK.png</logo>
+    <logo>file-ekywOKHJbP4lH1ruAF41nEpK.webp</logo>
     <detail>
       <desc/>
       <welcome>各位好，李白为您服务。</welcome>
@@ -5942,7 +5942,7 @@
     <is_blocked>0</is_blocked>
     <name>キラメク</name>
     <desc>日本のアイドルイラスト専門、SNSアイコン制作も対応</desc>
-    <logo>file-InG3WqDrlduph8lVm6mIpK1A.png</logo>
+    <logo>file-InG3WqDrlduph8lVm6mIpK1A.webp</logo>
     <detail>
       <desc/>
       <welcome>こんにちは！キラメクです。日本のアイドルイラストを作成するお手伝いをします。始めに、以下の項目についてお知らせください：1. イラストのテーマ 2. キャラクターの数 3. キャラクターの特徴（髪の色、服装など） 4. 背景の詳細 5. 希望する色彩や雰囲気。これらの情報をもとに、あなたの理想のイラストを一緒に作りましょう！</welcome>
@@ -6646,7 +6646,7 @@
     <is_blocked>0</is_blocked>
     <name>&lt; CogniSphere &gt;</name>
     <desc>&lt; BRANCH - SOLVE - MERGE &gt;</desc>
-    <logo>file-AvMDNNF2fp43aPSmN6zaxkOT.png</logo>
+    <logo>file-AvMDNNF2fp43aPSmN6zaxkOT.webp</logo>
     <detail>
       <desc/>
       <welcome>&lt; BRANCH SOLVE MERGE &gt;</welcome>
@@ -6691,7 +6691,7 @@
     <is_blocked>0</is_blocked>
     <name>Talent Acquisition Specialist</name>
     <desc>Designed to streamline recruitment processes by identifying ideal candidate profiles and optimizing job matching.</desc>
-    <logo>file-25xdgiTb8O7tQFMjEpsasvIh.png</logo>
+    <logo>file-25xdgiTb8O7tQFMjEpsasvIh.webp</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -6756,7 +6756,7 @@
     <is_blocked>0</is_blocked>
     <name>UX Detective</name>
     <desc>Helps you close usability cases in no time</desc>
-    <logo>file-s5xTRMJUdk3iSFei8nFECKDv.png</logo>
+    <logo>file-s5xTRMJUdk3iSFei8nFECKDv.webp</logo>
     <detail>
       <desc/>
       <welcome>Ready to navigate UX research with precision?</welcome>
@@ -7167,7 +7167,7 @@
     <is_blocked>0</is_blocked>
     <name>SkeletonGPT</name>
     <desc>Skeleton of thought</desc>
-    <logo>file-tfDzmBDsIkPh4nZxfYYEO9QE.png</logo>
+    <logo>file-tfDzmBDsIkPh4nZxfYYEO9QE.webp</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -7934,7 +7934,7 @@
     <is_blocked>0</is_blocked>
     <name>ZodiacGPT</name>
     <desc>Personalized horoscope, astrological insights, and wisdom</desc>
-    <logo>file-8Y5KX6Oc2DLk75GqWD0tH7r8.png</logo>
+    <logo>file-8Y5KX6Oc2DLk75GqWD0tH7r8.webp</logo>
     <detail>
       <desc/>
       <welcome>Welcome! Share your zodiac sign to begin our cosmic exploration.</welcome>
@@ -8630,7 +8630,7 @@
     <is_blocked>0</is_blocked>
     <name>CraftyBits</name>
     <desc>Your Friendly Guide for BIG Art Using Small Objects. Type &apos;go&apos; or &apos;m&apos; (menu) to begin.</desc>
-    <logo>file-49XKGd9qqS6zMrABYgV7Xd9c.png</logo>
+    <logo>file-49XKGd9qqS6zMrABYgV7Xd9c.jpg</logo>
     <detail>
       <desc/>
       <welcome>Hey there! Let&apos;s make some cool art with everyday items. What&apos;s your plan?</welcome>
@@ -8663,7 +8663,7 @@
     <is_blocked>0</is_blocked>
     <name>Photo Sculpture Creator</name>
     <desc>Transforms 2 images into a 3D sculpture concept.  材料とターゲットの二枚の写真だけでアートが完成！</desc>
-    <logo>file-oBonUm2L1KO7Dw2w0PPjFsxR.png</logo>
+    <logo>file-oBonUm2L1KO7Dw2w0PPjFsxR.webp</logo>
     <detail>
       <desc/>
       <welcome>Welcome! Ready to create a unique 3D sculpture from your images?</welcome>
@@ -8867,7 +8867,7 @@
     <is_blocked>0</is_blocked>
     <name>Makemore</name>
     <desc>Give an initial prompt with an adjective in caps. Respond to each image generated with 1 or more ! to make it more extreme. More !!! = more extreme.</desc>
-    <logo>file-oYWNcevkyYA3nvyD6uZwiwnr.png</logo>
+    <logo>file-oYWNcevkyYA3nvyD6uZwiwnr.webp</logo>
     <detail>
       <desc/>
       <welcome>Hello! Provide an image description with an emphasized adjective, like &apos;a SPICY bowl of ramen&apos;.</welcome>
@@ -9143,7 +9143,7 @@
     <is_blocked>0</is_blocked>
     <name>Bay Area Bites</name>
     <desc>Get recommendations and details about local restaurants in the Bay Area!</desc>
-    <logo>file-WgHEPCS76uiR8Lf8oHF0eJOh.png</logo>
+    <logo>file-WgHEPCS76uiR8Lf8oHF0eJOh.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -9158,7 +9158,7 @@
     <is_blocked>0</is_blocked>
     <name>Invoice Bot</name>
     <desc>Generate great looking invoices for your business</desc>
-    <logo>file-S7z5yQwJHzBYHv7LwMAJulPX.png</logo>
+    <logo>file-S7z5yQwJHzBYHv7LwMAJulPX.webp</logo>
     <detail>
       <desc/>
       <welcome>Hello! Ready to create your invoice?</welcome>
@@ -9416,7 +9416,7 @@
     <is_blocked>0</is_blocked>
     <name>Funnel Forge</name>
     <desc>Funnel Forge is an AI-driven guide for creating and optimizing marketing funnels tailored to your business&apos;s unique needs.</desc>
-    <logo>file-npfKRQwH5MNal0LX5P6cDU5K.png</logo>
+    <logo>file-npfKRQwH5MNal0LX5P6cDU5K.webp</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -9643,7 +9643,7 @@
     <is_blocked>0</is_blocked>
     <name>키보드 워리어</name>
     <desc>인터넷 말투를 구사하는 키보드 워리어와 어떤 주제로든 토론하세요. 의외로 객관적이며 논리적입니다.</desc>
-    <logo>file-jpaWjM2fKKdVZmm8tEk5fsVs.png</logo>
+    <logo>file-jpaWjM2fKKdVZmm8tEk5fsVs.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -9788,7 +9788,7 @@
     <is_blocked>0</is_blocked>
     <name>Much Better GPT Builder</name>
     <desc>Instructions 작성부터 custom action 생성, 필요한 API/파일 찾기까지.</desc>
-    <logo>file-dXGG53e45bg1ojjKrNFQppRd.png</logo>
+    <logo>file-dXGG53e45bg1ojjKrNFQppRd.jpg</logo>
     <detail>
       <desc/>
       <welcome>안녕하세요, 무엇을 도와드릴까요?</welcome>
@@ -10770,7 +10770,7 @@
     <is_blocked>0</is_blocked>
     <name>Yukiko Japanese JLPT-5 Coach</name>
     <desc>Japanese coach specializing in complex structures and JLPT-5 grammar.</desc>
-    <logo>file-NkfaPb7fzQjvOehTQGoWsfoH.png</logo>
+    <logo>file-NkfaPb7fzQjvOehTQGoWsfoH.webp</logo>
     <detail>
       <desc/>
       <welcome>Konnichiwa! Ready to dive into more complex Japanese structures today?</welcome>
@@ -10945,7 +10945,7 @@
     <is_blocked>0</is_blocked>
     <name>Free AI TikTok Caption Generator</name>
     <desc>Free AI TikTok Caption Generator - Generates catchy TikTok captions from video scripts</desc>
-    <logo>file-wmhEUydDURfG80UdRgVJl0mm.png</logo>
+    <logo>file-wmhEUydDURfG80UdRgVJl0mm.jpg</logo>
     <detail>
       <desc/>
       <welcome>Hey! Ready to create some TikTok captions?</welcome>
@@ -11548,7 +11548,7 @@
     <is_blocked>0</is_blocked>
     <name>Instabooks - AI Textbook Generator</name>
     <desc>What do you want to read a book about today?</desc>
-    <logo>file-uzRNM4wlgIWrmkJA46RrPnfg.png</logo>
+    <logo>file-uzRNM4wlgIWrmkJA46RrPnfg.jpg</logo>
     <detail>
       <desc/>
       <welcome>Welcome to Instabooks AI! Let&apos;s clarify your book&apos;s subject, and I&apos;ll start creating it. Please be patient; it may take a couple of minutes, and we&apos;re still designing a great cover!</welcome>
@@ -11578,7 +11578,7 @@
     <is_blocked>0</is_blocked>
     <name>Football Adventure</name>
     <desc>A text-based adventure game inspired by Jumpers for Goalposts. The player assumes the role of Chico Jones, a 16 year old at school man who dreams of becoming a professional footballer. He trains every day and levels up his skills with the goal of becoming the best striker of all time.</desc>
-    <logo>file-tntxsd22oqLZFaei8yzTOT7b.png</logo>
+    <logo>file-tntxsd22oqLZFaei8yzTOT7b.webp</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -11912,7 +11912,7 @@
     <is_blocked>0</is_blocked>
     <name>FlatEarth GPT</name>
     <desc>A GPT dedicated to proving the Earth is flat. https://twitter.com/flatearthgpt</desc>
-    <logo>file-c0TzIG4fVR1srQciWfiEZ1Wd.png</logo>
+    <logo>file-c0TzIG4fVR1srQciWfiEZ1Wd.webp</logo>
     <detail>
       <desc/>
       <welcome>Welcome! Let&apos;s explore the truth about our flat Earth.</welcome>
@@ -11927,7 +11927,7 @@
     <is_blocked>0</is_blocked>
     <name>STR Pagalbinis</name>
     <desc>I read and interpret Lithuanian construction norms.</desc>
-    <logo>file-bK0fvrPgyE0vdxKexqYWkBvv.png</logo>
+    <logo>file-bK0fvrPgyE0vdxKexqYWkBvv.jpg</logo>
     <detail>
       <desc/>
       <welcome>How can I assist with Lithuanian construction norms?</welcome>
@@ -12409,7 +12409,7 @@
     <is_blocked>0</is_blocked>
     <name>Rassegna Italiana</name>
     <desc>Le ultime news su politica, economia e società</desc>
-    <logo>file-2kLOgO6XP49SdBfcyFSrg1Bt.png</logo>
+    <logo>file-2kLOgO6XP49SdBfcyFSrg1Bt.webp</logo>
     <detail>
       <desc/>
       <welcome>Ciao! Pronti per le ultime notizie dall&apos;Italia?</welcome>
@@ -12761,7 +12761,7 @@
     <is_blocked>0</is_blocked>
     <name>Philosophy Buddy</name>
     <desc>Helps you understand those confusing ass old dudes and dudettes</desc>
-    <logo>file-aTam5eQkpurj8OiT4ujeFi3T.png</logo>
+    <logo>file-aTam5eQkpurj8OiT4ujeFi3T.webp</logo>
     <detail>
       <desc/>
       <welcome>Hello! Let&apos;s explore and analyze philosophy and psychology.</welcome>
@@ -13157,7 +13157,7 @@
     <is_blocked>0</is_blocked>
     <name>Jack Walsh</name>
     <desc>Ex-cop Chicago cop turned L.A. bounty hunter.</desc>
-    <logo>file-Q5x1u8Qfxcrzs88fHohYJhgn.png</logo>
+    <logo>file-Q5x1u8Qfxcrzs88fHohYJhgn.webp</logo>
     <detail>
       <desc/>
       <welcome>Welcome to the bounty hunter&apos;s den. What&apos;s the case?</welcome>
@@ -13413,7 +13413,7 @@
     <is_blocked>0</is_blocked>
     <name>Bilingual Translator</name>
     <desc>Instant translations between English and Spanish</desc>
-    <logo>file-c8vpD3fn38rqq7XM2ofzv6q4.png</logo>
+    <logo>file-c8vpD3fn38rqq7XM2ofzv6q4.webp</logo>
     <detail>
       <desc/>
       <welcome>Hola! Ready to translate between English and Spanish.</welcome>
@@ -13721,7 +13721,7 @@
     <is_blocked>0</is_blocked>
     <name>Dismantled GPT</name>
     <desc>Counter-Racist Scholar &amp; Editor of Dismantled Newsletter: Malcolm ai X</desc>
-    <logo>file-JZRYxcCSBHbUf5EgFcczMmS7.png</logo>
+    <logo>file-JZRYxcCSBHbUf5EgFcczMmS7.jpg</logo>
     <detail>
       <desc/>
       <welcome>Welcome to a discussion on counter-racism and Planetary Chess.</welcome>
@@ -13951,7 +13951,7 @@
     <is_blocked>0</is_blocked>
     <name>Fabric Journey Builder</name>
     <desc>Build geospatial mixed-reality experiences for live events using Fabric&apos;s Platform</desc>
-    <logo>file-ODEEOMBLP2cmFhAyOZYsBaWv.png</logo>
+    <logo>file-ODEEOMBLP2cmFhAyOZYsBaWv.webp</logo>
     <detail>
       <desc/>
       <welcome>Hello! Inspired by OpenAI&apos;s dev day, I&apos;m here to help you create unforgettable fan experiences. What&apos;s your vision?</welcome>
@@ -14074,7 +14074,7 @@
     <is_blocked>0</is_blocked>
     <name>The Storyteller</name>
     <desc>Crafts and enhances storytelling for social media.</desc>
-    <logo>file-kXoHYdjX2WxRICE8Ztk4yHrF.png</logo>
+    <logo>file-kXoHYdjX2WxRICE8Ztk4yHrF.webp</logo>
     <detail>
       <desc/>
       <welcome>Hi! Let&apos;s craft an engaging story for social media. I&apos;ll guide you with questions and examples.</welcome>
@@ -14285,7 +14285,7 @@
     <is_blocked>0</is_blocked>
     <name>Miami Vice: Spreadsheet Police Edition</name>
     <desc>An unofficial text-based investigation game inspired by Miami Vice taking place in a fictional version of Miami during 1990s. The player assumes the role of Sonny Burnett, a young man who is an undercover cop working in Miami to identify and fight spreadsheet crimes in fictional corporate America.</desc>
-    <logo>file-wqARGoWopPK8kMnCJwV1RSqy.png</logo>
+    <logo>file-wqARGoWopPK8kMnCJwV1RSqy.webp</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -14345,7 +14345,7 @@
     <is_blocked>0</is_blocked>
     <name>Uncle Buddy</name>
     <desc>Arthur &quot;Buddy&quot; Newkirk, who lives in the phantom funhouse.</desc>
-    <logo>file-5zkdaCQ2txlT8snouWtS1hNE.png</logo>
+    <logo>file-5zkdaCQ2txlT8snouWtS1hNE.jpg</logo>
     <detail>
       <desc/>
       <welcome>Hello</welcome>
@@ -14500,7 +14500,7 @@
     <is_blocked>0</is_blocked>
     <name>Critter Critic</name>
     <desc>The animal rater GPT of your dreams. Rates pets with humor and charm.</desc>
-    <logo>file-6CHEpJjzLjm2veRTb0X8YEeS.png</logo>
+    <logo>file-6CHEpJjzLjm2veRTb0X8YEeS.webp</logo>
     <detail>
       <desc/>
       <welcome>Welcome! Ready to rate your adorable pets?</welcome>
@@ -14594,7 +14594,7 @@
     <is_blocked>0</is_blocked>
     <name>Cagan Insights</name>
     <desc>Get the chance to talk to the boss of product management, get advices or coaching. For free!</desc>
-    <logo>file-wGNf0CxFKkEykWNMl9LiISZQ.png</logo>
+    <logo>file-wGNf0CxFKkEykWNMl9LiISZQ.jpg</logo>
     <detail>
       <desc/>
       <welcome>Hello! Marty Cagan here, ready to discuss product management.</welcome>
@@ -14753,7 +14753,7 @@
     <is_blocked>0</is_blocked>
     <name>American Dad Photo Lab</name>
     <desc>Transform your photos into unforgettable American Dad moments.</desc>
-    <logo>file-MjTIKMTJXYj7BjILnt6MkWk7.png</logo>
+    <logo>file-MjTIKMTJXYj7BjILnt6MkWk7.webp</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -14779,7 +14779,7 @@
     <is_blocked>0</is_blocked>
     <name>Nerd Binary Code Ink Tattoo</name>
     <desc>I transform phrases into binary code tattoos. Ask me a suggestion if you want.</desc>
-    <logo>file-P8btndqSIgusfQj2TgQPSnUF.png</logo>
+    <logo>file-P8btndqSIgusfQj2TgQPSnUF.webp</logo>
     <detail>
       <desc/>
       <welcome>Hello! Ready to create or choose a unique binary code tattoo?</welcome>
@@ -14872,7 +14872,7 @@
     <is_blocked>0</is_blocked>
     <name>BrainstormBot</name>
     <desc>A brainstorm facilitator for refining ideas through dialogue.</desc>
-    <logo>file-QFh2Lvb2A5NttMckSipXzZay.png</logo>
+    <logo>file-QFh2Lvb2A5NttMckSipXzZay.webp</logo>
     <detail>
       <desc/>
       <welcome>Hi! I&apos;m here to help you brainstorm and refine your ideas. What&apos;s on your mind?</welcome>
@@ -15258,7 +15258,7 @@
     <is_blocked>0</is_blocked>
     <name>提示精灵小黑熊（Structured Prompt Pet）</name>
     <desc>一个主动懂你，会写结构化提示词的仓鼠精灵。</desc>
-    <logo>file-Jfuss3SR9lSxRF4mQoCSB9kX.png</logo>
+    <logo>file-Jfuss3SR9lSxRF4mQoCSB9kX.webp</logo>
     <detail>
       <desc/>
       <welcome>Hi, I&apos;m here to help you craft amazing ChatGPT prompts!</welcome>
@@ -15273,7 +15273,7 @@
     <is_blocked>0</is_blocked>
     <name>外贸团长</name>
     <desc>你想了解的跨境供应链，都可以联系我！</desc>
-    <logo>file-dKp2nLBCA6jsrXwfisI8DaLT.png</logo>
+    <logo>file-dKp2nLBCA6jsrXwfisI8DaLT.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -15288,7 +15288,7 @@
     <is_blocked>0</is_blocked>
     <name>SEO 技术流</name>
     <desc>我的 AI 新形态。请尽管提问，我会尽可能附加官方链接❤️️</desc>
-    <logo>file-Um3wDFJO4VKSJspzSWvvOPsd.png</logo>
+    <logo>file-Um3wDFJO4VKSJspzSWvvOPsd.jpg</logo>
     <detail>
       <desc/>
       <welcome>您好！有什么SEO相关的问题我可以帮助解答吗？</welcome>
@@ -15763,7 +15763,7 @@
     <is_blocked>0</is_blocked>
     <name>汤山老王</name>
     <desc/>
-    <logo>file-o0mnLCymv1mkHvFsDvYaVWqU.png</logo>
+    <logo>file-o0mnLCymv1mkHvFsDvYaVWqU.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -15778,7 +15778,7 @@
     <is_blocked>0</is_blocked>
     <name>武则天</name>
     <desc/>
-    <logo>file-bSX2dzNMAEDJOESvm6UJgL79.png</logo>
+    <logo>file-bSX2dzNMAEDJOESvm6UJgL79.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -15838,7 +15838,7 @@
     <is_blocked>0</is_blocked>
     <name>韩非子</name>
     <desc/>
-    <logo>file-23yAHT3K9nLc8rxpq7ymifI2.png</logo>
+    <logo>file-23yAHT3K9nLc8rxpq7ymifI2.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -15976,7 +15976,7 @@
     <is_blocked>0</is_blocked>
     <name>杨玉环</name>
     <desc>杨贵妃</desc>
-    <logo>file-6K6mPhmwM8ZgWpL2oME5CXZj.png</logo>
+    <logo>file-6K6mPhmwM8ZgWpL2oME5CXZj.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -16048,7 +16048,7 @@
     <is_blocked>0</is_blocked>
     <name>研究助理</name>
     <desc>帮助用户检索文献和专利</desc>
-    <logo>file-tr1tYvqOcGlMqGpbNG4DwMeN.png</logo>
+    <logo>file-tr1tYvqOcGlMqGpbNG4DwMeN.webp</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -16171,7 +16171,7 @@
     <is_blocked>0</is_blocked>
     <name>恋人与制作</name>
     <desc>这是一场征服与反征服的游戏，谁先动情谁输，他输不起，唯一能守住的，只有自己的心.</desc>
-    <logo>file-L2hQrfxRylRIYZwvOooMRRAN.png</logo>
+    <logo>file-L2hQrfxRylRIYZwvOooMRRAN.jpg</logo>
     <detail>
       <desc/>
       <welcome>你，我要定了！/我要在自己的东西上印上自己的标志又如何！/天凉了，让王氏破产吧！/不要挑战我，这次我放你走。/不要再哭了，如果想哭的话必须是在我身边。/从来没有人敢这么和我说话！</welcome>
@@ -16201,7 +16201,7 @@
     <is_blocked>0</is_blocked>
     <name>UI/交互设计专家</name>
     <desc>提供全面的UI/交互设计知识、理论、工具、资源的专家。【axurehub产品经理原型站】出品</desc>
-    <logo>file-KjzpwSVrWJ8C4bKdu0RvEhLw.png</logo>
+    <logo>file-KjzpwSVrWJ8C4bKdu0RvEhLw.jpg</logo>
     <detail>
       <desc/>
       <welcome>您好，我是设计导航员，您可以向我咨询任何关于UI和交互设计的问题。</welcome>
@@ -17851,7 +17851,7 @@
     <is_blocked>0</is_blocked>
     <name>新闻速读</name>
     <desc>提炼新闻大纲，分析是否存在论证错误、事实错误和悖论；论证过于薄弱，立场过于主观。</desc>
-    <logo>file-QPHLkzlchOAegK1hGVvv498b.png</logo>
+    <logo>file-QPHLkzlchOAegK1hGVvv498b.webp</logo>
     <detail>
       <desc/>
       <welcome>Hello</welcome>
@@ -17881,7 +17881,7 @@
     <is_blocked>0</is_blocked>
     <name>简历阅读助手</name>
     <desc>帮助招聘者快速分析一个人选的简历是否匹配岗位。</desc>
-    <logo>file-PhTp5gtB1Z4GWEZWoDERIsPv.png</logo>
+    <logo>file-PhTp5gtB1Z4GWEZWoDERIsPv.jpg</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -18074,7 +18074,7 @@
     <is_blocked>0</is_blocked>
     <name>完蛋！师傅被妖怪包围了！</name>
     <desc>🌟🐒 — 扮演孙悟空，守护师傅穿越千险万难！让我们一起打怪养成，解锁神秘剧情！你准备好成为英雄了吗？🛡️🎮💥</desc>
-    <logo>file-4qs19CYOpTsUnydQ8gpUkER6.png</logo>
+    <logo>file-4qs19CYOpTsUnydQ8gpUkER6.webp</logo>
     <detail>
       <desc/>
       <welcome/>
@@ -18108,7 +18108,7 @@
     <is_blocked>0</is_blocked>
     <name>原型图转描述</name>
     <desc>转换原型图片为流程图、交互说明、字段描述等，以专业产品经理角度，为你助力产品工作。【AxureHub产品经理原型站】出品</desc>
-    <logo>file-bNPxT3ZZR28TDNjdvI4jMoMw.png</logo>
+    <logo>file-bNPxT3ZZR28TDNjdvI4jMoMw.jpg</logo>
     <detail>
       <desc/>
       <welcome>欢迎！请上传原型图像以获得格式化分析。</welcome>
@@ -18123,7 +18123,7 @@
     <is_blocked>0</is_blocked>
     <name>完型帮手</name>
     <desc>精准的初中阅读解析与语言学习专家</desc>
-    <logo>file-02IU2jGzZfF8gkAXvle8xOJH.png</logo>
+    <logo>file-01cNnUALG8sJ9IDCikvxdpkH.png</logo>
     <detail>
       <desc/>
       <welcome>您好，我是完型帮手，待命令。</welcome>
@@ -18168,7 +18168,7 @@
     <is_blocked>0</is_blocked>
     <name>飛熊紫微斗术</name>
     <desc>“熊啸破虚，玄翼掠天际，意扬漫斗，紫韵颂乾坤” 提供专业前沿的紫微斗数咨询和学习进阶指导</desc>
-    <logo>file-51V6CF3yW7qSiJfr7bZ0sAZz.png</logo>
+    <logo>file-51V6CF3yW7qSiJfr7bZ0sAZz.jpg</logo>
     <detail>
       <desc/>
       <welcome>Welcome to Zi Wei insights with 飞熊紫微斗术!</welcome>
@@ -18221,7 +18221,7 @@
     <is_blocked>0</is_blocked>
     <name>魔鬼辞典(Devil&apos;s Dictionary)</name>
     <desc>以离经反道的方式解释词语，发人深思</desc>
-    <logo>file-LKIca8wFSqzeTRHUxIyMBvpH.png</logo>
+    <logo>file-LKIca8wFSqzeTRHUxIyMBvpH.jpg</logo>
     <detail>
       <desc/>
       <welcome>欢迎来到魔鬼词典，让我们挑战传统解释。</welcome>
@@ -18315,7 +18315,7 @@
     <is_blocked>0</is_blocked>
     <name>E 大数字回声</name>
     <desc>轻松幽默的虚拟投资博主</desc>
-    <logo>file-QJKHeGH4qyw7t15bzlbLFM82.png</logo>
+    <logo>file-QJKHeGH4qyw7t15bzlbLFM82.jpg</logo>
     <detail>
       <desc/>
       <welcome>还有谁想听我讲股市故事？来听E大的黑斗段子吧！</welcome>
@@ -18547,7 +18547,7 @@
     <is_blocked>0</is_blocked>
     <name>Brii Baby The Bad Bitchifier</name>
     <desc>Your sassy Houston-style AI mentor, spicing up your style journey.</desc>
-    <logo>file-6o1iuXLTGfjdp4m7g5K1o0PD.png</logo>
+    <logo>file-6o1iuXLTGfjdp4m7g5K1o0PD.webp</logo>
     <detail>
       <desc/>
       <welcome>Hey y&apos;all, welcome to your fierce style transformation with me!</welcome>
@@ -18580,7 +18580,7 @@
     <is_blocked>0</is_blocked>
     <name>Rap Bots Official ✅ SUPER CHARGED</name>
     <desc>AI expert in rap lyric generation and style analysis</desc>
-    <logo>file-s9IFXJhCm0VHPduHHcPQSXEt.png</logo>
+    <logo>file-s9IFXJhCm0VHPduHHcPQSXEt.webp</logo>
     <detail>
       <desc/>
       <welcome>Welcome to the Supercharged Rap Bot experience!</welcome>
@@ -18786,7 +18786,7 @@
     <is_blocked>0</is_blocked>
     <name>Make it more</name>
     <desc>Loop back on images to make them more #makeitmore</desc>
-    <logo>file-3h8DkQ2ipXoVsrJVvaSLK8Ji.png</logo>
+    <logo>file-3h8DkQ2ipXoVsrJVvaSLK8Ji.jpg</logo>
     <detail>
       <desc/>
       <welcome/>

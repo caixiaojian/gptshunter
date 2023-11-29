@@ -37,7 +37,7 @@
     marketing: '营销助手'
   };
   // imgs文件夹的路径
-  const imgsFolderPath = './wpImport/imgs';
+  const imgsFolderPath = './wpImport/20231129';
 
   // 读取imgs文件夹下的所有文件
   const imgsFiles = fs.readdirSync(imgsFolderPath);
