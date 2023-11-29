@@ -4,7 +4,7 @@
   const Parser = require('json2csv').Parser;
   const { XMLParser, XMLBuilder } = require('fast-xml-parser');
 
-  const filePath = path.join(process.cwd(), 'data.json');
+  const filePath = path.join(process.cwd()+'/wpImport', 'data-2023-11-29.json');
   const arr = await fs.readJson(filePath);
   let jsonArray = arr.reduce((accumulator, current) => {
     // 查找累加器数组中是否已经有当前元素的id
@@ -34,11 +34,10 @@
     healthcare: '医疗',
     'text to speech': '文本转语音',
     sales: '销售助手',
-    marketing: '营销助手',
-    'human resources': '人力资源',
+    marketing: '营销助手'
   };
   // imgs文件夹的路径
-  const imgsFolderPath = './imgs';
+  const imgsFolderPath = './wpImport/imgs';
 
   // 读取imgs文件夹下的所有文件
   const imgsFiles = fs.readdirSync(imgsFolderPath);
@@ -144,7 +143,7 @@
 
     // 生成文件名
     // const fileName = `data_2000_${Math.floor(i / maxRecordsPerFile) + 1}.xml`;
-    const fileName = `data_all_${Math.floor(i / maxRecordsPerFile) + 1}.xml`;
+    const fileName = `data_2023-11-29_${Math.floor(i / maxRecordsPerFile) + 1}.xml`;
 
     // 将XML写入文件
     fs.writeFileSync(fileName, xmlContent);

@@ -16,7 +16,7 @@ const App = () => {
     const randomTime = Math.floor(Math.random() * (max - min + 1) + min) // 生成随机等待时间
     return new Promise((resolve) => setTimeout(resolve, randomTime))
   }
-  const pages = 50
+  const pages = 100
   let spiderArr = []
   const hits = json.urls
   let idIndex = localStorage.getItem('idIndex') || 0
@@ -57,7 +57,21 @@ const App = () => {
       throw new Error(error)
     }
   }
-
+  const checkId = async (id)=>{
+    try {
+      let options = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({id})
+      };
+      let esRest = await fetch('http://127.0.0.1:7001/checkId',options)
+      return await esRest.json()
+    } catch (error) {
+      throw new Error(error)
+    }
+  }
   for (let [hIndex, hitItem] of hits.entries()) {
     if(hIndex == 0){
       spiderArr.push(hitItem.url)
@@ -87,6 +101,7 @@ const App = () => {
         if(res.status != '200' ){
           throw new Error(`获取${spiderItem}出错`)
         }
+        //获取gpt产品数组
         let resText = await res.json();
         let products = resText.length
 
@@ -104,10 +119,14 @@ const App = () => {
         for (let [index, item] of resText.entries()){
           if(index < detailIndex) continue
           if(!item.id) continue
-
+          
           localStorage.setItem('detailIndex' , index)
           localStorage.setItem('detailUrl' , `/gpt-store/${item.id}`)
-
+          const checkResult = await checkId(item.id)
+          if(checkResult.code =='0002'){
+            console.log('id已存在')
+            continue
+          }
           const detailRes = await fetch(`/gpt-store/${item.id}`)
           let detailResText = await detailRes.text();
           let desc = $(detailResText).find("h2").filter(function() {
