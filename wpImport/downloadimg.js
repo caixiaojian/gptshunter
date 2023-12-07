@@ -2,13 +2,16 @@
   const axios = require('axios');
   const fs = require('fs-extra');
   const path = require('path');
+  const moment = require('moment')
+  const currentDate = moment().format('YYYY-MM-DD');
+
   // 确保imgs文件夹存在
-  const imgsDir = path.join(__dirname, '20231129');
+  const imgsDir = path.join(__dirname, currentDate);
   if (!fs.existsSync(imgsDir)) {
     fs.mkdirSync(imgsDir);
   }
 
-  const filePath = path.join(__dirname, 'data-2023-11-29.json');
+  const filePath = path.join(__dirname, `data-hx-${currentDate}.json`);
   const jsonArray = await fs.readJson(filePath);
 
   // 错误日志文件路径

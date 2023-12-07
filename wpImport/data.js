@@ -1,10 +1,12 @@
 (async () => {
   const fs = require('fs-extra');
   const path = require('path');
+  const moment = require('moment')
   const Parser = require('json2csv').Parser;
   const { XMLParser, XMLBuilder } = require('fast-xml-parser');
+  const currentDate = moment().format('YYYY-MM-DD');
 
-  const filePath = path.join(process.cwd()+'/wpImport', 'data-2023-11-29.json');
+  const filePath = path.join(process.cwd()+'/wpImport', `data-hx-${currentDate}.json`);
   const arr = await fs.readJson(filePath);
   let jsonArray = arr.reduce((accumulator, current) => {
     // 查找累加器数组中是否已经有当前元素的id
@@ -37,10 +39,11 @@
     marketing: '营销助手'
   };
   // imgs文件夹的路径
-  const imgsFolderPath = './wpImport/20231129';
+  const imgsFolderPath = `./wpImport/${currentDate}`;
 
   // 读取imgs文件夹下的所有文件
   const imgsFiles = fs.readdirSync(imgsFolderPath);
+  console.log('imgsFiles文件个数' , imgsFiles.length)
   // 检查字符串是否只包含中文字符的函数
   function containsChinese(text) {
     return /[\u4e00-\u9fff]/.test(text);
@@ -143,7 +146,7 @@
 
     // 生成文件名
     // const fileName = `data_2000_${Math.floor(i / maxRecordsPerFile) + 1}.xml`;
-    const fileName = `data_2023-11-29_${Math.floor(i / maxRecordsPerFile) + 1}.xml`;
+    const fileName = `data_${currentDate}.xml`;
 
     // 将XML写入文件
     fs.writeFileSync(fileName, xmlContent);

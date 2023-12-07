@@ -16,7 +16,7 @@ const App = () => {
     const randomTime = Math.floor(Math.random() * (max - min + 1) + min) // 生成随机等待时间
     return new Promise((resolve) => setTimeout(resolve, randomTime))
   }
-  const pages = 100
+  const pages = 50
   let spiderArr = []
   const hits = json.urls
   let idIndex = localStorage.getItem('idIndex') || 0
