@@ -118,7 +118,7 @@ const App = () => {
 
         for (let [index, item] of resText.entries()){
           if(index < detailIndex) continue
-          if(!item.id) continue
+          if(!item.id || item.type == 'sponsor') continue
           
           localStorage.setItem('detailIndex' , index)
           localStorage.setItem('detailUrl' , `/gpt-store/${item.id}`)
